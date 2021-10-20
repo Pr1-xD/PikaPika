@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+.cardView {
+  display: grid;
+  grid-template-rows: [row1-start] 25px [row1-end row2-start] 25px [row2-end];
+  grid-template-columns: auto 50px auto;
+}
+
+.card .cardImage img {
+  width: 50% !important;
+  height: 10%;
+}
+
+.card {
+  background-color: aquamarine;
+  height: fit-content;
+  width: 20%;
+  padding: 0px;
+  margin: 2em;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
