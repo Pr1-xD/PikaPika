@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='cardView'>
+        <div className="card">
+          <div className="cardImage">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" />
+          </div>
+          <div className="cardText">
+            <h4>Charizard</h4>
+            <p><strong>Height</strong> 5'07"</p>
+            <p><strong>Category</strong> Flame</p>
+            <p><strong>Weight</strong> 199.5 lbs</p>
+            <p><strong>Abilities</strong> Blaze</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
