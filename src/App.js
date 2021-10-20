@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <br/><br/><br/>
       <h1>Pika Pika</h1>
-      <Abhinav/>
+      <Abhinav name="Charizard" h="5.07" cat="Flame" w="199.5 lbs" abilities="Blaze"/>
       {/* <Michelle/> */}
       {/* <Keerthana/> */}
       {/* <Adrita/> */}

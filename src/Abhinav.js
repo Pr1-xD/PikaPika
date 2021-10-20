@@ -9,15 +9,14 @@ function Abhinav(props) {
             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" />
           </div>
           <div className="cardText">
-            <h4>Charizard</h4>
-            <p><strong>Height</strong> 5'07"</p>
-            <p><strong>Category</strong> Flame</p>
-            <p><strong>Weight</strong> 199.5 lbs</p>
-            <p><strong>Abilities</strong> Blaze</p>
+            <h4>{props.name}</h4>
+            <p><strong>Height</strong> {props.h}</p>
+            <p><strong>Category</strong> {props.cat}</p>
+            <p><strong>Weight</strong> {props.w} </p>
+            <p><strong>Abilities</strong> {props.abilities}</p>
           </div>
         </div>
       </div>
     );
 }
-
 export default Abhinav;
