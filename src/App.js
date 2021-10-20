@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Abhinav from './Abhinav';
+import pikachuimg from './pikachuimg.png'
+import Michelle from './Michelle';
+import Keerthana from './Keerthana';
+import Adrita from './Adrita';
+import Doyel from './Doyel';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <br/><br/><br/>
+      <h1>Pika Pika</h1>
+      <Abhinav/>
+      {/* <Michelle/> */}
+      {/* <Keerthana/> */}
+      {/* <Adrita/> */}
+      {/* <Doyel/> */}
+      <br/><br/><br/>
+      <img src={pikachuimg}/>
     </div>
   );
 }
