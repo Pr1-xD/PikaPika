@@ -1,22 +1,23 @@
 import './App.css';
+import Abhinav from './Abhinav';
+import pikachuimg from './pikachuimg.png'
+import Michelle from './Michelle';
+import Keerthana from './Keerthana';
+import Adrita from './Adrita';
+import Doyel from './Doyel';
 
 function App() {
   return (
     <div className="App">
-      <div className='cardView'>
-        <div className="card">
-          <div className="cardImage">
-            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" />
-          </div>
-          <div className="cardText">
-            <h4>Charizard</h4>
-            <p><strong>Height</strong> 5'07"</p>
-            <p><strong>Category</strong> Flame</p>
-            <p><strong>Weight</strong> 199.5 lbs</p>
-            <p><strong>Abilities</strong> Blaze</p>
-          </div>
-        </div>
-      </div>
+      <br/><br/><br/>
+      <h1>Pika Pika</h1>
+      <Abhinav/>
+      {/* <Michelle/> */}
+      {/* <Keerthana/> */}
+      {/* <Adrita/> */}
+      {/* <Doyel/> */}
+      <br/><br/><br/>
+      <img src={pikachuimg}/>
     </div>
   );
 }
