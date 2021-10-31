@@ -7,3 +7,4 @@
 - Contributing to open source.
 - Making a pull request.
 - Basics of React.
+- About Pokemon!
