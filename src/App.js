@@ -12,7 +12,7 @@ function App() {
       <br/><br/><br/>
       <h1>Pika Pika</h1>
       <Abhinav name="Charizard" h="5.07" cat="Flame" w="199.5 lbs" abilities="Blaze"/>
-      {/* <Michelle/> */}
+      <Michelle name="Clefairy" h="0.6" cat="Fairy" w="16.5 lbs" abilities="Magic Guard"/>
       {/* <Keerthana/> */}
       {/* <Adrita/> */}
       {/* <Doyel/> */}
